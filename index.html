@@ -13,12 +13,19 @@
 
     <!--Vue 3-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    
+
     <!--JS-->
-    <script src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
 
 </head>
 <body>
+    <div id="root">
+        <h1 v-text="name"></h1>
+
+        <h1>Ciao io sono {{name}}, ho {{age}} anni!</h1>
+       
+
+    </div>
     
 </body>
 </html>
